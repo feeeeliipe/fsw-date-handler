@@ -23,7 +23,7 @@ console.log('Hora formatada para G5: ', dateHandler.currentHourG5Format());
 const birthdayDate = new Date(1995, 1, 9);
 console.log('Data formatada para G5: ', dateHandler.jsDateToG5StringFormat(birthdayDate));
 
-// Formatando uma data da G5
+// Formatando uma hora da G5
 const hourToTest = 1000; 
 console.log('Hora formatada: ', dateHandler.g5HourToString(hourToTest));
 
