@@ -1,6 +1,6 @@
 {
   "name": "fsw-date-handler",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Biblioteca para tratamento de datas de sistemas Senior G5 em JavaScript.",
   "main": "dist/index.js",
   "types": "dist",
