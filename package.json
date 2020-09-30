@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "types": "dist",
   "scripts": {
-    "build": "tsc -p .", 
+    "build": "tsc -p .",
+    "publish": "tsc -p . && npm publish", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
