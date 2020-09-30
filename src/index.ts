@@ -10,4 +10,5 @@ function actualHourOnG5Format() {
 
 }
 
-module.exports = { helloFswLib, actualDateOnG5Format, actualHourOnG5Format }
+export default { helloFswLib, actualDateOnG5Format, actualHourOnG5Format }
+

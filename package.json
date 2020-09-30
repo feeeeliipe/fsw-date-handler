@@ -2,8 +2,10 @@
   "name": "fsw-date-handler",
   "version": "1.0.0",
   "description": "Biblioteca para tratamento de datas de sistemas Senior G5 em JavaScript.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist",
   "scripts": {
+    "build": "tsc -p .", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,5 +25,9 @@
   "bugs": {
     "url": "https://github.com/feeeeliipe/fsw-date-handler/issues"
   },
-  "homepage": "https://github.com/feeeeliipe/fsw-date-handler#readme"
+  "homepage": "https://github.com/feeeeliipe/fsw-date-handler#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  }
 }
